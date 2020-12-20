@@ -1,0 +1,21 @@
+{
+  "name": "search-engine",
+  "version": "1.0.0",
+  "description": "Search engine made by daim",
+  "main": "runner.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "node": "^15.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon www/www.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
